@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="create"
+        android:enabled="true"
+        android:icon="@drawable/ic_add_24dp"
+        android:shortcutShortLabel="@string/shortcut_add_short_label"
+        android:shortcutLongLabel="@string/shortcut_add_long_label"
+        android:shortcutDisabledMessage="@string/shortcut_add_disabled_message">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.timetable"
+            android:targetClass="com.example.timetable.MainActivity" />
+    </shortcut>
+
+</shortcuts>

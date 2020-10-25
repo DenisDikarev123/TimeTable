@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">TimeTable</string>
+    <string name="shortcut_add_short_label">TimeTable</string>
+    <string name="shortcut_add_long_label">Ярлык для добавления занятий</string>
+    <string name="shortcut_add_disabled_message">Этот ярлык сейчас недоступен</string>
+    <string name="label_calendar">Календарь</string>
+    <string name="label_add_class">Добавить занятие</string>
+    <string name="label_class_name">Название предмета</string>
+    <string name="label_class_number">Номер пары</string>
+    <string name="label_class_type">Тип пары</string>
+    <string name="label_class_teacher_name">ФИО преподавателя</string>
+    <string name="label_class_audience">Номер аудитории</string>
+    <string name="label_add_class_from_file">Добавить из файла</string>
+    <string name="label_tutorial_add_class">Заполните все поля и нажмите кнопку \"Добавить\".</string>
+    <string name="add_widget">Добавить виджет</string>
+    <string name="label_schedule">Расписание</string>
+    <string name="label_class">Занятие</string>
+    <string name="label_add_schedule">Добавить расписание</string>
+    <string name="message_no_classes">Пар нет. Можно отдохнуть!</string>
+    <string name="label_switch_theme">Сменить тему</string>
+    <string name="label_going_now">Идёт сейчас</string>
+    <string name="message_enter_group_example">Например, ИВМО–01–20</string>
+    <string name="decline">Отмена</string>
+    <string name="accept">Ок</string>
+    <string name="label_study_group">Учебная группа</string>
+    <string name="message_enter_study_group">Введите название своей учебной группы</string>
+    <string name="night_theme_flag" translatable="false">nightThemeFlag</string>
+    <string name="label_load">Загрузка</string>
+    <string name="label_load_error">Ошибка загрузки</string>
+    <string name="label_load_done">Готово</string>
+    <string name="message_load_done">Расписание загружено!</string>
+    <string name="message_load_schedule">Загружаем расписание…</string>
+    <string name="label_empty_widget">Пустое состояние</string>
+    <string name="message_load">Загрузка…</string>
+
+    <plurals name="number_of_classes">
+        <item quantity="one">%d пара</item>
+        <item quantity="few">%d пары</item>
+        <item quantity="other">%d пар</item>
+    </plurals>
+</resources>

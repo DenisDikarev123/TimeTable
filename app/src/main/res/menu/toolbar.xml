@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_switch_theme"
+        android:icon="@drawable/ic_night_24dp"
+        android:title="@string/label_switch_theme"
+        app:showAsAction="ifRoom" />
+
+        <item android:id="@+id/menu_add_from_file"
+        android:icon="@drawable/ic_insert_drive_file_24dp"
+        android:title="@string/label_add_class_from_file"
+        app:showAsAction="ifRoom" />
+
+</menu>

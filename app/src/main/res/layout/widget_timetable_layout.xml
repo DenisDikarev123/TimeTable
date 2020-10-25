@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/empty_widget_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="@string/label_empty_widget"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/widget_root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/widget_background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="16dp">
+
+            <TextView
+                android:id="@+id/widget_header_class_number"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="3 пары"/>
+
+            <TextView
+                android:id="@+id/widget_header_date"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                tools:text="21 сентября"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/widget_image_weekend"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/illustration_having_fun"
+            android:contentDescription="@string/message_no_classes" />
+
+        <ListView
+            android:id="@+id/widget_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:dividerHeight="1dp"
+            android:loopViews="true" />
+
+    </LinearLayout>
+
+</FrameLayout>

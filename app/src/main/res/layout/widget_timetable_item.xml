@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget_item_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="8dp">
+
+    <TextView
+        android:id="@+id/widget_text_class_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        tools:text="1" />
+
+    <TextView
+        android:id="@+id/widget_text_class_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        android:textAllCaps="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/widget_text_class_number"
+        tools:text="лекция" />
+
+    <TextView
+        android:id="@+id/widget_text_class_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/widget_text_class_type"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_toStartOf="@+id/widget_text_class_audience"
+        android:layout_toEndOf="@+id/widget_text_class_number"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="Разработка ПАОИАС" />
+
+    <TextView
+        android:id="@+id/widget_text_class_teacher_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:layout_below="@id/widget_text_class_name"
+        android:layout_toEndOf="@+id/widget_text_class_number"
+        tools:text="Иванов Иван Иванович" />
+
+    <TextView
+        android:id="@+id/widget_text_class_start_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:layout_toEndOf="@id/widget_text_class_teacher_name"
+        android:layout_alignTop="@id/widget_text_class_teacher_name"
+        android:layout_alignBottom="@id/widget_text_class_teacher_name"
+        tools:text="9-00" />
+
+    <TextView
+        android:id="@+id/widget_class_time_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        tools:text="-"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:layout_toEndOf="@+id/widget_text_class_start_time"
+        android:layout_alignTop="@+id/widget_text_class_start_time"
+        android:layout_alignBottom="@+id/widget_text_class_start_time" />
+
+    <TextView
+        android:id="@+id/widget_text_class_end_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:layout_toEndOf="@+id/widget_class_time_divider"
+        android:layout_alignTop="@+id/widget_text_class_start_time"
+        android:layout_alignBottom="@+id/widget_text_class_start_time"
+        tools:text="10-30" />
+
+    <TextView
+        android:id="@+id/widget_text_class_audience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        tools:text="A-111" />
+
+    <TextView
+        android:id="@+id/widget_text_class_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_badge"
+        android:paddingHorizontal="6dp"
+        android:paddingVertical="1dp"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:text="@string/label_going_now"
+        android:layout_alignEnd="@+id/widget_text_class_audience"
+        android:layout_alignParentTop="true"/>
+
+</RelativeLayout>

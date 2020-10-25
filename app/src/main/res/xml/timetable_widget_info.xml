@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minHeight="80dp"
+    android:minWidth="250dp"
+    android:initialLayout="@layout/widget_timetable_layout"
+    android:updatePeriodMillis="0"
+    android:resizeMode="none"
+    android:previewImage="@drawable/widget_preview"
+    android:widgetCategory="home_screen"
+    android:autoAdvanceViewId="@+id/stack_view">
+
+</appwidget-provider>

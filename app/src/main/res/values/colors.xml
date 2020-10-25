@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#3f51b5</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorError">#b00020</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorSurface">#ffffff</color>
+
+    <color name="colorOnPrimary">#ffffff</color>
+    <color name="colorOnSecondary">#ffffff</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorOnSurface">#000000</color>
+    <color name="colorOnError">#ffffff</color>
+
+    <!--  Indigo 300  -->
+    <color name="colorPrimaryNight">#7986cb</color>
+    <color name="colorErrorNight">#cf6679</color>
+    <color name="colorSurfaceNight">#121212</color>
+
+    <color name="colorOnSurfaceNight">#ffffff</color>
+    <color name="colorOnErrorNight">#000000</color>
+
+    <!--  surface color with 11% primary color overlay  -->
+    <color name="colorSurfaceColoredNight">#171924</color>
+    <!--  surface color with 18% primary color overlay  -->
+    <color name="colorDialogSurfaceNight">#1a1e30</color>
+
+    <!--  for tooltips overlay  -->
+    <color name="overlay">#BF000000</color>
+
+</resources>
