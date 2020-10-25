@@ -5,5 +5,4 @@
 ![Farmers Market Finder Demo](timetable_demo.gif)
 
 ### Виджет
-![alt text](widget_screenshot_1.jpg)
-![alt text](widget_screenshot_2.jpg)
+![alt text](widget_screenshots.png)
