@@ -2,6 +2,6 @@
 ## Приложение для удобного просмотра расписания, работающее под операционной системой Android.
 
 ### Демо
-![Farmers Market Finder Demo](demo.gif)
+![Farmers Market Finder Demo](timetable_demo.gif)
 
 ### Виджет
